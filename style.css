@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #313552;
+  --background: #1f2235;
+  --accent: #fec576;
+}
+
+body {
+  font-family: 'Press Start 2P';
+  background: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game__container {
+  height: 26rem;
+  background: var(--primary);
+  width: 28rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.game__title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #ffffff;
+}
+
+.game__container {
+  margin: 1rem auto;
+}
+
+.game__stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: var(--accent);
+  font-size: 0.6rem;
+}
+
+.game__emoji {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 1.5rem 0;
+}
+
+.game__result {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.game__task {
+  text-align: center;
+  margin: 0.7rem 0;
+  color: #ffffff;
+  font-size: 0.8rem;
+  line-height: 150%;
+}
+
+.game__input {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.game__input input {
+  width: 8rem;
+  padding: 1rem;
+  background: var(--background);
+  border: 2px solid var(--accent);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: 'Press Start 2P';
+  text-align: center;
+}
+
+.game__buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 8rem;
+}
+.game__buttons .game__button {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background: var(--accent);
+  border-radius: 5px;
+  border: 2px solid var(--background);
+  cursor: pointer;
+  font-family: 'Press Start 2P';
+  color: var(--background);
+  font-size: 0.7rem;
+}
