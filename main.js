@@ -19,8 +19,8 @@ let hints = {
   select: 'Guess a number between 0 to 50',
   high: 'This number is higher',
   low: 'This number is lower',
-  win: 'You win!!',
-  lose: 'You lose!!',
+  win: 'You win!!, Press reset to reply.',
+  lose: 'You lose!!, Press reset to reply.',
   invalid: 'Invalid Number, please enter something between 1 to 50',
 };
 
